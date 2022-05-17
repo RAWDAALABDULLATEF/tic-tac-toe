@@ -1,0 +1,54 @@
+
+.game{
+    width: 313px;
+    text-align: center;
+    font-family: cursive  ;  /*نوع الخط*/
+    color : #ffffff ;
+    margin:auto;  
+    font-weight: 600;
+    padding: 80px;
+
+}
+
+.title{
+    background: rgb(37, 116, 235);
+    padding : 5px 0px;
+    margin: 5px  0px;
+    height: 30px;
+
+} 
+
+span{
+    color: #fa0;
+}
+
+.square{
+    width: 100px;
+    height: 100px;
+    background:rgb(37, 116, 235) ;
+    float:left;         /* وضع المربعات بجانب بعضها البعض*/
+    margin: 2px ;      /* وضع الفراغات بين الخانات */
+    font-size: 50px;
+
+}
+.square:hover{
+    background: rgb(3, 34, 170);
+    cursor: pointer;      /* جعل المؤشر على شكل "يد*/
+}
+
+button{
+
+    width: 150px;
+    height: 50px;
+    background-color: rgb(37 , 116 , 235 );
+    margin: 50px , 400px;
+    font-size: large;
+    font-family: cursive ;
+    color: aliceblue;
+    
+   
+}
+button:hover{
+    background: rgba(16, 235, 34, 0.986);
+    cursor: pointer;  
+}
